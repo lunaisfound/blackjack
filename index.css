@@ -1,0 +1,23 @@
+/* Hero Section */
+#hero {
+  width: 100%;
+  height: 30vh;
+}
+
+/* Why Us Section */
+#whyUs {
+  width: 40%;
+}
+
+/* Call to Action Section */
+#callToAction {
+  width: 40%;
+}
+
+/* Combined Media Query */
+@media (max-width: 800px) {
+  #whyUs,
+  #callToAction {
+    width: 100%;
+  }
+}
